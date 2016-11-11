@@ -1,0 +1,30 @@
+{
+  "name": "ckeditor-example",
+  "homepage": "https://github.com/itanex/ckeditor-example",
+  "authors": [
+    "Bryan Wood <itanex@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "ckeditor",
+    "javascript",
+    "angular",
+    "ng1"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-bootstrap": "0.14.3",
+    "bootstrap": "3.3.6",
+    "ckeditor": "4.5.6"
+  }
+}

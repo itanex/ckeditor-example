@@ -1,0 +1,20 @@
+<div class="modal-body">
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Setting</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="(key, value) in settings">
+        <td>{{key}}</td>
+        <td><code>{{value | displayArray}}</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-primary" type="button" ng-click="save()">Save</button>
+  <button class="btn btn-danger" type="button" ng-click="cancel()">Cancel</button>
+</div>
